@@ -5,6 +5,21 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="core.data">
+        <State />
+      </entry>
+      <entry key="core.database">
+        <State />
+      </entry>
+      <entry key="run.data">
+        <State />
+      </entry>
+      <entry key="run.location">
+        <State />
+      </entry>
+      <entry key="run.network">
+        <State />
+      </entry>
     </value>
   </component>
 </project>
