@@ -122,3 +122,23 @@ courseapplication-android-application = { id = "courseapplication.android.applic
 courseapplication-android-application-compose = { id = "courseapplication.android.application.compose", version = "unspecified" }
 courseapplication-android-library = { id = "courseapplication.android.library", version = "unspecified" }
 courseapplication-android-library-compose = { id = "courseapplication.android.library.compose", version = "unspecified" }
+courseapplication-android-feature-ui = { id = "courseapplication.android.feature.ui", version = "unspecified" }
+
+
+
+[bundles]
+compose = [
+    "androidx-activity-compose",
+    "androidx-lifecycle-runtime-compose",
+    "androidx-lifecycle-viewmodel-compose",
+    "androidx-compose-material3",
+    "androidx-compose-ui",
+    "androidx-compose-ui-graphics",
+    "androidx-compose-ui-tooling-preview",
+]
+compose-debug = [
+    "androidx-compose-ui-tooling",
+    "androidx-compose-ui-test-manifest",
+]
+koin = ["koin-core", "koin-android", "koin-android-workmanager"]
+koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
