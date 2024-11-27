@@ -86,7 +86,6 @@ ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negoti
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
 ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktorClientLogging" }
 ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
-ktor-server-call-logging = { module = "io.ktor:ktor-server-call-logging", version.ref = "ktorServerCallLogging" }
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
@@ -125,7 +124,7 @@ courseapplication-android-library-compose = { id = "courseapplication.android.li
 courseapplication-android-feature-ui = { id = "courseapplication.android.feature.ui", version = "unspecified" }
 courseapplication-android-room = { id = "courseapplication.android.room", version = "unspecified" }
 courseapplication-jvm-library = { id = "courseapplication.jvm.library", version = "unspecified" }
-
+courseapplication-jvm-ktor = { id = "courseapplication.jvm.ktor", version = "unspecified" }
 
 
 [bundles]
@@ -144,3 +143,11 @@ compose-debug = [
 ]
 koin = ["koin-core", "koin-android", "koin-android-workmanager"]
 koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
+ktor = [
+    "ktor-client-auth",
+    "ktor-client-cio",
+    "ktor-client-content-negotiation",
+    "ktor-client-core",
+    "ktor-client-logging",
+    "ktor-serialization-kotlinx-json"
+]
