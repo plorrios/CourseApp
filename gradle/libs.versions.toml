@@ -123,6 +123,7 @@ courseapplication-android-application-compose = { id = "courseapplication.androi
 courseapplication-android-library = { id = "courseapplication.android.library", version = "unspecified" }
 courseapplication-android-library-compose = { id = "courseapplication.android.library.compose", version = "unspecified" }
 courseapplication-android-feature-ui = { id = "courseapplication.android.feature.ui", version = "unspecified" }
+courseapplication-android-room = { id = "courseapplication.android.room", version = "unspecified" }
 
 
 
