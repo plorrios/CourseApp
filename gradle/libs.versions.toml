@@ -124,6 +124,7 @@ courseapplication-android-library = { id = "courseapplication.android.library", 
 courseapplication-android-library-compose = { id = "courseapplication.android.library.compose", version = "unspecified" }
 courseapplication-android-feature-ui = { id = "courseapplication.android.feature.ui", version = "unspecified" }
 courseapplication-android-room = { id = "courseapplication.android.room", version = "unspecified" }
+courseapplication-jvm-library = { id = "courseapplication.jvm.library", version = "unspecified" }
 
 
 
